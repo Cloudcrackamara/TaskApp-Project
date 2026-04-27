@@ -1,4 +1,7 @@
+**/.terraform/
 *.tfstate
 *.tfstate.backup
-**/.terraform/
 .terraform.lock.hcl
+*.pem
+*.key
+kubeconfig

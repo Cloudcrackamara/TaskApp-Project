@@ -20,5 +20,5 @@ variable "availability_zones" {
 
 variable "domain_name" {
   type    = string
-  default = "taskbyamara.online"
+  default = "taskbymara.online"
 }
