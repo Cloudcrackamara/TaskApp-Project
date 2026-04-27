@@ -1,0 +1,20 @@
+ecr_backend_url = "781856668470.dkr.ecr.us-east-1.amazonaws.com/taskapp-backend"
+ecr_frontend_url = "781856668470.dkr.ecr.us-east-1.amazonaws.com/taskapp-frontend"
+kops_state_bucket = "taskapp-kops-state-amara"
+private_subnet_ids = [
+  "subnet-0b102d3947588aac3",
+  "subnet-0b56673011f57bce6",
+  "subnet-01d26872971aca654",
+]
+public_subnet_ids = [
+  "subnet-08ea539191a6bc6a9",
+  "subnet-0a57e70763aa55337",
+  "subnet-033929c4727535704",
+]
+route53_nameservers = tolist([
+  "ns-1378.awsdns-44.org",
+  "ns-1933.awsdns-49.co.uk",
+  "ns-37.awsdns-04.com",
+  "ns-563.awsdns-06.net",
+])
+vpc_id = "vpc-056f3cf5ded9843ff"
