@@ -1,0 +1,125 @@
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: "2026-04-29T10:22:59Z"
+  labels:
+    kops.k8s.io/cluster: k8s.taskbymara.online
+  name: bastions
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20260218
+  machineType: t3.micro
+  maxSize: 1
+  minSize: 1
+  role: Bastion
+  subnets:
+  - us-east-1a
+  - us-east-1b
+  - us-east-1c
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: "2026-04-29T10:22:56Z"
+  labels:
+    kops.k8s.io/cluster: k8s.taskbymara.online
+  name: control-plane-us-east-1a
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20260218
+  machineType: t3a.medium
+  maxSize: 1
+  minSize: 1
+  role: Master
+  subnets:
+  - us-east-1a
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: "2026-04-29T10:22:57Z"
+  labels:
+    kops.k8s.io/cluster: k8s.taskbymara.online
+  name: control-plane-us-east-1b
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20260218
+  machineType: t3a.medium
+  maxSize: 1
+  minSize: 1
+  role: Master
+  subnets:
+  - us-east-1b
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: "2026-04-29T10:22:57Z"
+  labels:
+    kops.k8s.io/cluster: k8s.taskbymara.online
+  name: control-plane-us-east-1c
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20260218
+  machineType: t3a.medium
+  maxSize: 1
+  minSize: 1
+  role: Master
+  subnets:
+  - us-east-1c
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: "2026-04-29T10:22:58Z"
+  labels:
+    kops.k8s.io/cluster: k8s.taskbymara.online
+  name: nodes-us-east-1a
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20260218
+  machineType: t3a.medium
+  maxSize: 1
+  minSize: 1
+  role: Node
+  subnets:
+  - us-east-1a
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: "2026-04-29T10:22:58Z"
+  labels:
+    kops.k8s.io/cluster: k8s.taskbymara.online
+  name: nodes-us-east-1b
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20260218
+  machineType: t3a.medium
+  maxSize: 1
+  minSize: 1
+  role: Node
+  subnets:
+  - us-east-1b
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: "2026-04-29T10:22:59Z"
+  labels:
+    kops.k8s.io/cluster: k8s.taskbymara.online
+  name: nodes-us-east-1c
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20260218
+  machineType: t3a.medium
+  maxSize: 1
+  minSize: 1
+  role: Node
+  subnets:
+  - us-east-1c
