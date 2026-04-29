@@ -1,7 +1,7 @@
 apiVersion: kops.k8s.io/v1alpha2
 kind: InstanceGroup
 metadata:
-  creationTimestamp: "2026-04-29T10:22:59Z"
+  creationTimestamp: "2026-04-29T12:52:21Z"
   labels:
     kops.k8s.io/cluster: k8s.taskbymara.online
   name: bastions
@@ -21,13 +21,13 @@ spec:
 apiVersion: kops.k8s.io/v1alpha2
 kind: InstanceGroup
 metadata:
-  creationTimestamp: "2026-04-29T10:22:56Z"
+  creationTimestamp: "2026-04-29T12:52:17Z"
   labels:
     kops.k8s.io/cluster: k8s.taskbymara.online
   name: control-plane-us-east-1a
 spec:
   image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20260218
-  machineType: t3a.medium
+  machineType: t3.medium
   maxSize: 1
   minSize: 1
   role: Master
@@ -39,13 +39,13 @@ spec:
 apiVersion: kops.k8s.io/v1alpha2
 kind: InstanceGroup
 metadata:
-  creationTimestamp: "2026-04-29T10:22:57Z"
+  creationTimestamp: "2026-04-29T12:52:18Z"
   labels:
     kops.k8s.io/cluster: k8s.taskbymara.online
   name: control-plane-us-east-1b
 spec:
   image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20260218
-  machineType: t3a.medium
+  machineType: t3.medium
   maxSize: 1
   minSize: 1
   role: Master
@@ -57,13 +57,13 @@ spec:
 apiVersion: kops.k8s.io/v1alpha2
 kind: InstanceGroup
 metadata:
-  creationTimestamp: "2026-04-29T10:22:57Z"
+  creationTimestamp: "2026-04-29T12:52:18Z"
   labels:
     kops.k8s.io/cluster: k8s.taskbymara.online
   name: control-plane-us-east-1c
 spec:
   image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20260218
-  machineType: t3a.medium
+  machineType: t3.medium
   maxSize: 1
   minSize: 1
   role: Master
@@ -75,13 +75,13 @@ spec:
 apiVersion: kops.k8s.io/v1alpha2
 kind: InstanceGroup
 metadata:
-  creationTimestamp: "2026-04-29T10:22:58Z"
+  creationTimestamp: "2026-04-29T12:52:19Z"
   labels:
     kops.k8s.io/cluster: k8s.taskbymara.online
   name: nodes-us-east-1a
 spec:
   image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20260218
-  machineType: t3a.medium
+  machineType: t3.medium
   maxSize: 1
   minSize: 1
   role: Node
@@ -93,13 +93,13 @@ spec:
 apiVersion: kops.k8s.io/v1alpha2
 kind: InstanceGroup
 metadata:
-  creationTimestamp: "2026-04-29T10:22:58Z"
+  creationTimestamp: "2026-04-29T12:52:19Z"
   labels:
     kops.k8s.io/cluster: k8s.taskbymara.online
   name: nodes-us-east-1b
 spec:
   image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20260218
-  machineType: t3a.medium
+  machineType: t3.medium
   maxSize: 1
   minSize: 1
   role: Node
@@ -111,13 +111,13 @@ spec:
 apiVersion: kops.k8s.io/v1alpha2
 kind: InstanceGroup
 metadata:
-  creationTimestamp: "2026-04-29T10:22:59Z"
+  creationTimestamp: "2026-04-29T12:52:21Z"
   labels:
     kops.k8s.io/cluster: k8s.taskbymara.online
   name: nodes-us-east-1c
 spec:
   image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20260218
-  machineType: t3a.medium
+  machineType: t3.medium
   maxSize: 1
   minSize: 1
   role: Node

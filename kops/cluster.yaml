@@ -1,7 +1,7 @@
 apiVersion: kops.k8s.io/v1alpha2
 kind: Cluster
 metadata:
-  creationTimestamp: "2026-04-29T10:22:55Z"
+  creationTimestamp: "2026-04-29T12:52:15Z"
   name: k8s.taskbymara.online
 spec:
   api:
@@ -55,8 +55,7 @@ spec:
   - ::/0
   kubernetesVersion: 1.28.5
   masterPublicName: api.k8s.taskbymara.online
-  networkCIDR: 10.0.0.0/16
-  networkID: vpc-056f3cf5ded9843ff
+  networkCIDR: 172.20.0.0/16
   networking:
     calico: {}
   nonMasqueradeCIDR: 100.64.0.0/10
@@ -64,33 +63,27 @@ spec:
   - 0.0.0.0/0
   - ::/0
   subnets:
-  - cidr: 10.0.10.0/24
-    id: subnet-0b102d3947588aac3
+  - cidr: 172.20.64.0/18
     name: us-east-1a
     type: Private
     zone: us-east-1a
-  - cidr: 10.0.11.0/24
-    id: subnet-0b56673011f57bce6
+  - cidr: 172.20.128.0/18
     name: us-east-1b
     type: Private
     zone: us-east-1b
-  - cidr: 10.0.12.0/24
-    id: subnet-01d26872971aca654
+  - cidr: 172.20.192.0/18
     name: us-east-1c
     type: Private
     zone: us-east-1c
-  - cidr: 10.0.1.0/24
-    id: subnet-08ea539191a6bc6a9
+  - cidr: 172.20.0.0/21
     name: utility-us-east-1a
     type: Utility
     zone: us-east-1a
-  - cidr: 10.0.2.0/24
-    id: subnet-0a57e70763aa55337
+  - cidr: 172.20.8.0/21
     name: utility-us-east-1b
     type: Utility
     zone: us-east-1b
-  - cidr: 10.0.3.0/24
-    id: subnet-033929c4727535704
+  - cidr: 172.20.16.0/21
     name: utility-us-east-1c
     type: Utility
     zone: us-east-1c

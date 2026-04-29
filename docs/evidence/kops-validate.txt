@@ -1,0 +1,22 @@
+Validating cluster k8s.taskbymara.online
+
+INSTANCE GROUPS
+NAME				ROLE		MACHINETYPE	MIN	MAX	SUBNETS
+bastions			Bastion		t3.micro	1	1	us-east-1a,us-east-1b,us-east-1c
+control-plane-us-east-1a	ControlPlane	t3.medium	1	1	us-east-1a
+control-plane-us-east-1b	ControlPlane	t3.medium	1	1	us-east-1b
+control-plane-us-east-1c	ControlPlane	t3.medium	1	1	us-east-1c
+nodes-us-east-1a		Node		t3.medium	1	1	us-east-1a
+nodes-us-east-1b		Node		t3.medium	1	1	us-east-1b
+nodes-us-east-1c		Node		t3.medium	1	1	us-east-1c
+
+NODE STATUS
+NAME			ROLE		READY
+i-02e77f7619907e93e	node		True
+i-0306d694f696442a4	control-plane	True
+i-03cae674223d2a111	node		True
+i-0846ecd0f4295c4d2	node		True
+i-0da2ce8941ad6f6db	control-plane	True
+i-0eafc41d1052fa587	control-plane	True
+
+Your cluster k8s.taskbymara.online is ready
