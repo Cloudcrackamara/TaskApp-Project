@@ -1,0 +1,11 @@
+Server:  dev.opt
+Address:  192.168.100.1
+
+DNS request timed out.
+    timeout was 2 seconds.
+Name:    a31c89f222fbc4efb8d50cd5f33c4b05-1396525075.us-east-1.elb.amazonaws.com
+Addresses:  100.52.113.169
+	  98.83.16.18
+	  54.159.22.235
+Aliases:  api.taskbymara.online
+
