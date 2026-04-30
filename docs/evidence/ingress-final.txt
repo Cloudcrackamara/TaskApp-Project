@@ -1,2 +1,2 @@
 NAME              CLASS   HOSTS                                             ADDRESS                                                                   PORTS     AGE
-taskapp-ingress   nginx   taskapp.taskbymara.online,api.taskbymara.online   a31c89f222fbc4efb8d50cd5f33c4b05-1396525075.us-east-1.elb.amazonaws.com   80, 443   65m
+taskapp-ingress   nginx   taskapp.taskbymara.online,api.taskbymara.online   a31c89f222fbc4efb8d50cd5f33c4b05-1396525075.us-east-1.elb.amazonaws.com   80, 443   3h12m
