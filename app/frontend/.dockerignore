@@ -1,0 +1,31 @@
+# Dependencies (installed in container)
+node_modules
+npm-debug.log
+
+# Build output (generated in container)
+dist
+
+# Version control
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+
+# Environment files (security!)
+.env
+.env.local
+.env.production
+
+# Testing
+coverage
+*.test.ts
+*.test.tsx
+
+# Documentation
+README.md
+*.md
+
+# CI/CD (not needed in image)
+.github

@@ -1,0 +1,6 @@
+NAME                       READY   STATUS             RESTARTS        AGE
+backend-f8b84f4db-2fgql    0/1     CrashLoopBackOff   6 (40s ago)     10m
+backend-f8b84f4db-4ls8k    0/1     CrashLoopBackOff   6 (40s ago)     10m
+frontend-6f65f996d-9kzjc   0/1     CrashLoopBackOff   6 (4m19s ago)   9m57s
+frontend-6f65f996d-lf4t2   0/1     CrashLoopBackOff   6 (4m7s ago)    9m57s
+postgres-0                 0/1     CrashLoopBackOff   6 (4m40s ago)   10m

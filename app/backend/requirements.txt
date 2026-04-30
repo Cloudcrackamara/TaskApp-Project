@@ -1,0 +1,20 @@
+Flask==3.0.0
+Flask-SQLAlchemy==3.1.1
+Flask-CORS==4.0.0
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+PyJWT==2.8.0
+gunicorn==21.2.0
+
+## NEW: Database migrations
+alembic==1.13.1
+
+# NEW: Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# NEW: Linting
+flake8==6.1.0
+black==23.11.0
+isort==5.12.0
+bandit==1.7.5

@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment (security!)
+.env
+.env.local
+.env.production
+.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
+
+# Tests
+tests/
+.pytest_cache/
+.coverage
+
+# Documentation
+README.md
+*.md
+
+# CI/CD
+.github/
+
+# Local development
+*.sqlite
+*.sqlite3
+instance/

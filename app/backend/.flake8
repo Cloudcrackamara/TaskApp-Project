@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 88
+exclude = 
+    .git,
+    __pycache__,
+    venv,
+    .venv,
+    migrations/versions  # Auto-generated files
+per-file-ignores =
+    __init__.py:F401

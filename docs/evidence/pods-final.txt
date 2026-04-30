@@ -1,0 +1,6 @@
+NAME                        READY   STATUS    RESTARTS   AGE
+backend-64b68ccb78-d48zb    1/1     Running   0          4m51s
+backend-64b68ccb78-tdxl2    1/1     Running   0          5m7s
+frontend-6c99b96d45-g4g2n   1/1     Running   0          15m
+frontend-6c99b96d45-gztwb   1/1     Running   0          15m
+postgres-0                  1/1     Running   0          33m
