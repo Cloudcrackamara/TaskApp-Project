@@ -1,8 +1,13 @@
 FROM node:18-alpine AS builder
 WORKDIR /app
 COPY package*.json ./
+FROM node:18-alpine AS builder
+WORKDIR /app
+COPY package*.json ./
 RUN npm ci
 COPY . .
+ARG VITE_API_URL=https://taskapp.taskbymara.online/api
+ENV VITE_API_URL=$VITE_API_URL
 RUN npm run build
 
 FROM nginx:1.25-alpine
