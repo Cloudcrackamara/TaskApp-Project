@@ -1,7 +1,7 @@
 NAME                  STATUS   ROLES           AGE   VERSION   INTERNAL-IP      EXTERNAL-IP   OS-IMAGE             KERNEL-VERSION   CONTAINER-RUNTIME
-i-02e77f7619907e93e   Ready    node            29h   v1.28.5   172.20.208.13    <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.13
-i-0306d694f696442a4   Ready    control-plane   29h   v1.28.5   172.20.110.141   <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.13
-i-03cae674223d2a111   Ready    node            29h   v1.28.5   172.20.169.89    <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.13
-i-0846ecd0f4295c4d2   Ready    node            29h   v1.28.5   172.20.91.139    <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.13
-i-0da2ce8941ad6f6db   Ready    control-plane   29h   v1.28.5   172.20.148.94    <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.13
-i-0eafc41d1052fa587   Ready    control-plane   29h   v1.28.5   172.20.210.244   <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.13
+i-02e77f7619907e93e   Ready    node            31h   v1.28.5   172.20.208.13    <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.13
+i-0306d694f696442a4   Ready    control-plane   31h   v1.28.5   172.20.110.141   <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.13
+i-03cae674223d2a111   Ready    node            31h   v1.28.5   172.20.169.89    <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.13
+i-0846ecd0f4295c4d2   Ready    node            31h   v1.28.5   172.20.91.139    <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.13
+i-0da2ce8941ad6f6db   Ready    control-plane   31h   v1.28.5   172.20.148.94    <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.13
+i-0eafc41d1052fa587   Ready    control-plane   31h   v1.28.5   172.20.210.244   <none>        Ubuntu 22.04.5 LTS   6.8.0-1046-aws   containerd://1.7.13
