@@ -532,6 +532,8 @@ The most dangerous part of any deployment is the human executing it under pressu
 
 ## 📸 Screenshots
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/4d9e55e4-7080-4287-8151-311983605086" />
+
 ### Live Application
 ![TaskApp Dashboard](docs/evidence/dashboard-screenshot.png)
 
